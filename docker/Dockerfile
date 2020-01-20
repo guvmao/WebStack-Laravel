@@ -15,7 +15,7 @@ ARG WEBSTACK_VERSION=v1.2.6
 ARG DOWNLOAD_URL=https://github.com/CrazyBoyM/WebStack-Laravel/archive/${WEBSTACK_VERSION}.tar.gz
 EXPOSE 8000
 
-COPY WebStack-Laravel/docker/entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 RUN apk update -qq \
 	&& apk upgrade \
 	&& apk add --no-cache tini \
