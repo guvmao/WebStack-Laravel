@@ -8,8 +8,8 @@ ENV DB_USERNAME=homestead
 ENV DB_PASSWORD=secret
 ENV LOGIN_COPTCHA=true
 
-ARG WEBSTACK_VERSION=v1.2.4
-ARG DOWNLOAD_URL=https://github.com/hui-ho/WebStack-Laravel/archive/${WEBSTACK_VERSION}.tar.gz
+ARG WEBSTACK_VERSION=v1.2.6
+ARG DOWNLOAD_URL=https://github.com/guvmao/WebStack-Laravel/archive/${WEBSTACK_VERSION}.tar.gz
 
 COPY entrypoint.sh /entrypoint.sh
 
